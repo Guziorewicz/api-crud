@@ -1,0 +1,11 @@
+# src/test/resources/application-test.yml
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:admin123@localhost:30084/usersdb
+
+  datasource:
+    url: jdbc:postgresql://localhost:30074/devdb
+    username: pguser
+    password: pgpass123
